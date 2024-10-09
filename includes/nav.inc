@@ -1,6 +1,6 @@
 <nav class="navbar">
 <div class="logo">
-        <img src="path-to-paw-icon.png" alt="Paw Logo">
+        <img src="/images/logo.png" alt="Paw Logo">
     <div class="dropdown">
     <select onchange="location = this.value;">
         <option selected disabled>Select a Page...</option>
@@ -15,7 +15,7 @@
     <div class="search-container">
         <input type="text" placeholder="Search">
         <button type="submit">
-            <img src="path-to-search-icon.png" alt="Search Icon">
+            <i class="fas fa-search"></i>
         </button>
     </div>
 </nav>
