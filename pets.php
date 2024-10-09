@@ -21,7 +21,15 @@
                 echo "<tr>";
                 echo '<td><a href="details.php?petid=' . $row["petid"] . '">' . $row["petname"] . '</a></td>';
                 echo "<td>" . $row["type"] . "</td>";
-                echo "<td>" . $row["age"] ." Months". "</td>";
+                
+
+                if ($row["age"] < 12) {
+                    echo "<td>" . $row["age"] . " Months" . "</td>";
+                } else {
+                    $years = floor($row["age"] / 12);
+                    echo "<td>" . $years . " Year(s)" . "</td>";
+                }
+
                 echo "<td>" . $row["location"] . "</td>";
                 echo "</tr>";
             }
