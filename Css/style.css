@@ -145,7 +145,7 @@ h1, h3, h4, h5, h6 {
 #petsImage {
     float: left;
     width: 50%;
-    height: 250px;
+    height: 270px;
 }
 
 #petsPara {
@@ -459,4 +459,9 @@ input[type=submit]:hover {
 .search-container button img {
     width: 20px; /* Adjust size of the search icon */
     height: auto;
+}
+
+
+html {
+    background-color: cornsilk;
 }
