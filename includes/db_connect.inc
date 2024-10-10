@@ -7,9 +7,9 @@ if (strstr($_SERVER['SERVER_NAME'], 'localhost')) {
     $dbname = "petsvictoria";
 } else {
     $servername = "talsprddb02.int.its.rmit.edu.au";
-    $username = "s123456";
-    $password = "your password";
-    $dbname = "s123456";
+    $username = "s3994931";
+    $password = "Wali$1122";
+    $dbname = "s3994931";
 }
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
