@@ -24,7 +24,7 @@
             <option value="Dog">Dog</option>
         </select>
 
-        <label id='description'>Description:<i class="required">*</i></label>
+        <label id='description' for="description">Description:<i class="required">*</i></label>
         <textarea class="description" name="description" placeholder="Describe the pet briefly" required></textarea>
 
         <label for="image">Select Image:<i class="required">*</i></label>
