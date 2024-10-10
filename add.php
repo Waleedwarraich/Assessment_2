@@ -14,7 +14,7 @@
     }
     ?>
     <form id="pet-form" action="form-submit.php" method="post" enctype="multipart/form-data">
-        <label for="pet-name">Pet Name:<i class="required">*</i></label>
+        <label for="pets-name">Pet Name:<i class="required">*</i></label>
         <input type="text" id="pets-name" name="petname" placeholder="Provide a name for the pet" required>
         
         <label for="type">Type:<i class="required">*</i></label>
@@ -24,8 +24,8 @@
             <option value="Dog">Dog</option>
         </select>
 
-        <label id='description'for="description">Description:<i class="required">*</i></label>
-        <textarea id="description" name="description" placeholder="Describe the pet briefly" required></textarea>
+        <label id='description'>Description:<i class="required">*</i></label>
+        <textarea class="description" name="description" placeholder="Describe the pet briefly" required></textarea>
 
         <label for="image">Select Image:<i class="required">*</i></label>
         <input type="file" id="image" name="image" accept="image/*">
@@ -35,7 +35,7 @@
         <input type="text" id="image-caption" name="imageCaption" placeholder="Describe the image in one word" required>
 
         <label for="age">Age(Months):<i class="required">*</i></label>
-        <input type="number"  step="0.0" id="age" name="age" placeholder="Enter the age" required>
+        <input type="number"  step="1.0" id="age" name="age" placeholder="Enter the age" required>
 
         <label for="location">Location:<i class="required">*</i></label>
         <input type="text" id="location" name="location" placeholder="Enter the location" required>
