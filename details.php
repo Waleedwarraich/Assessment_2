@@ -3,9 +3,9 @@
     <?php
     include "includes/db_connect.inc";
     // Fetch pet details from database
-    $sql = "SELECT * FROM pets WHERE petid = ?"; // Assuming you have a unique petid for each pet
+    $sql = "SELECT * FROM pets WHERE id = ?"; // Assuming you have a unique id for each pet
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("i", $_GET['petid']); // Assuming you pass the petid as a parameter in the URL
+    $stmt->bind_param("i", $_GET['id']); // Assuming you pass the id as a parameter in the URL
     $stmt->execute();
     $result = $stmt->get_result();
     if ($result->num_rows > 0) {
