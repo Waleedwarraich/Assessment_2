@@ -1,6 +1,6 @@
 <nav class="navbar">
 <div class="logo">
-        <img src="./images/logo.png" alt="Paw Logo">
+        <img src="./images/logo1.png" alt="Paw Logo">
     <div class="dropdown">
     <select onchange="location = this.value;">
         <option selected disabled>Select a Page...</option>
