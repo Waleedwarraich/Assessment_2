@@ -18,7 +18,7 @@
                 echo '<img src="' . $row["image"] . '" alt="' . $row["petname"] . '">';
                 echo '<h2>' . $row["petname"] . '</h2>';
                 echo '<div class="overlay-text">';
-                echo '<a href="details.php?petid=' . $row["petid"] . '">Explore more</a>';
+                echo '<a href="details.php?id=' . $row["id"] . '">Explore more</a>';
                 echo '</div>';
                 echo '</div>';
                 echo '</li>';

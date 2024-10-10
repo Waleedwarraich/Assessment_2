@@ -19,7 +19,7 @@
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
                 echo "<tr>";
-                echo '<td><a href="details.php?petid=' . $row["petid"] . '">' . $row["petname"] . '</a></td>';
+                echo '<td><a href="details.php?id=' . $row["id"] . '">' . $row["petname"] . '</a></td>';
                 echo "<td>" . $row["type"] . "</td>";
                 
 
