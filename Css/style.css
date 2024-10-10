@@ -381,11 +381,12 @@ input[type=submit]:hover {
     font-size: 24px;
     text-align: center;
 }
-.description {
+
+/*.description {
     margin-top: 10px;
     font-size: 18px;
     text-align: center;
-}
+}*/
 
 .required {
     color: red;
@@ -403,6 +404,10 @@ input[type=submit]:hover {
 .btns {
     display: flex;
     justify-content: space-evenly;
+}
+
+.description {
+    display: block;
 }
 
 #description {
@@ -443,12 +448,13 @@ input[type=submit]:hover {
 
 .search-container input {
     padding: 8px;
-    border: none;
+    border-right: 1px solid grey;
     border-radius: 4px 0 0 4px;
     background-color: #fff;
 }
 
 .search-container button {
+    margin-bottom: 10px;
     padding: 8px;
     border: none;
     background-color: #fff;
